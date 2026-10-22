@@ -1,0 +1,23 @@
+# Byte-compiled / optimized
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+venv/
+.env/
+
+# IDE
+.vscode/
+.idea/
+
+# OS files
+Thumbs.db
+.DS_Store
+
+# Archives
+*.zip
+
+# Misc
+_pdf_text.txt
+GHID_PREZENTARE.md
+*.pdf

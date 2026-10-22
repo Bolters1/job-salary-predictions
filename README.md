@@ -15,8 +15,7 @@ Machine learning project tackling two tasks on a job/salary dataset (~64k sample
 ## Structure
 
 ```
-tema1_cd.py          # main script — runs everything end-to-end
-tema1_cd.ipynb       # same pipeline as a Jupyter notebook
+tema1_cd.ipynb                 # main notebook — full pipeline end-to-end
 CD_education_economy.csv       # training data (64k rows)
 CD_education_economy_test.csv  # held-out test data (16k rows)
 plots/               # generated visualizations (EDA, confusion matrices, residuals, etc.)
@@ -34,8 +33,8 @@ results/             # prediction CSVs and metric summaries
 ## Running
 
 ```bash
-pip install pandas numpy matplotlib seaborn scikit-learn scipy
-python tema1_cd.py
+pip install pandas numpy matplotlib seaborn scikit-learn scipy jupyter
+jupyter notebook tema1_cd.ipynb
 ```
 
 Plots are saved to `plots/`, results to `results/`.
